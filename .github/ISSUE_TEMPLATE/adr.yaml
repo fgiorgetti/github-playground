@@ -1,0 +1,30 @@
+name: Architectural Decision Record Proposal
+description: Document architectural proposals
+title: "[ADR]: "
+labels: ["adr", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Submit your ADR Proposal
+  - type: input
+    id: context
+    attributes:
+      label: Context
+      description: Overview of the architectural proposal
+    validations:
+      required: true
+  - type: textarea
+    id: decision
+    attributes:
+      label: Decision
+      description: What are the decisions being made?
+    validations:
+      required: true
+  - type: textarea
+    id: consequences
+    attributes:
+      label: Consequences
+      description: What are the consequences of implementing this ADR?
+    validations:
+      required: true
