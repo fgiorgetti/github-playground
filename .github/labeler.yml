@@ -1,9 +1,13 @@
 frontend:
-  - files:
-    - 'src/frontend/**'
+  - changed-files:
+    - any-glob-to-any-file:
+      - 'src/frontend/**'
+      - 'frontend/**'
 docs:
-  - files:
-    - 'docs/**'
+  - changed-files:
+    - any-glob-to-any-file: 'docs/**'
 backend:
-  - files:
-    - 'src/backend/**'
+  - changed-files:
+    - any-glob-to-any-file:
+      - 'src/backend/**'
+      - 'backend/**'
