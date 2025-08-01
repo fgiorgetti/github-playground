@@ -1,0 +1,6 @@
+frontend:
+  - 'src/frontend/**'
+docs:
+  - 'docs/**'
+backend:
+  - 'src/backend/**'
